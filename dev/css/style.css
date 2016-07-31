@@ -634,6 +634,10 @@ h1 {
   line-height: 3.8rem;
   margin-bottom: .5rem; }
 
+.code-normal {
+  color: #c7254e;
+  background-color: #f9f2f4; }
+
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
