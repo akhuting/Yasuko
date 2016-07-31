@@ -1253,9 +1253,9 @@ a.btn-post-excerpt {
   position: absolute;
   top: 2rem; }
 
-#svg-luolei {
+#svg-shaofan {
   fill: #333; }
-  #svg-luolei:hover, #svg-luolei:active {
+  #svg-shaofan:hover, #svg-shaofan:active {
     fill: #999;
     opacity: .4; }
 
@@ -1773,7 +1773,7 @@ Copyright (c) 2014 Daniel Eden
 .iconfont-douban {
   color: #279337; }
 
-.iconfont-luolei {
+.iconfont-shaofan {
   color: #6596C1; }
 
 .iconfont-dribble {
@@ -1837,7 +1837,7 @@ Copyright (c) 2014 Daniel Eden
 .single-post-inner .iconfont-douban:before {
   content: "\0e600"; }
 
-.single-post-inner .iconfont-luolei:before {
+.single-post-inner .iconfont-shaofan:before {
   content: "\0"; }
 
 .single-post-inner .iconfont-v2ex:before {
@@ -1858,7 +1858,7 @@ Copyright (c) 2014 Daniel Eden
 .single-post-inner .iconfont-youtube:before {
   content: '\00e60a'; }
 
-.single-post-inner .iconfont-luolei:before {
+.single-post-inner .iconfont-shaofan:before {
   content: '\00e60e'; }
 
 .yasuko-only #ds-reset .ds-avatar img {

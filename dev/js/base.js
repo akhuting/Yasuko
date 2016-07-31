@@ -58,11 +58,11 @@ function loadJS(url, callback, el) {
  */
 
 var duoshuoQuery = {
-    short_name: "luolei"
+    short_name: "akhuting"
 };
 
 var GlobalConfigue = {
-    duoshuoDomain: 'https://luolei.org',
+    duoshuoDomain: 'http://shaofan.org'
 }
 
 
@@ -187,7 +187,7 @@ var General = {
             'github': iconFontTag + '-github',
             'douban': iconFontTag + '-douban',
             'google': iconFontTag + '-google',
-            'luolei': iconFontTag + '-luolei',
+            'shaofan': iconFontTag + '-shaofan',
             'dribble': iconFontTag + '-dribble',
             'v2ex': iconFontTag + '-v2ex',
             'zhihu': iconFontTag + '-zhihu',

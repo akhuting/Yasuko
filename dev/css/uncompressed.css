@@ -1865,12 +1865,12 @@ a.btn-post-excerpt
     left: 0;
 }
 
-#svg-luolei
+#svg-shaofan
 {
     fill: #333;
 }
-#svg-luolei:hover,
-#svg-luolei:active
+#svg-shaofan:hover,
+#svg-shaofan:active
 {
     opacity: .4; 
 
@@ -2693,7 +2693,7 @@ Copyright (c) 2014 Daniel Eden
     color: #279337;
 }
 
-.iconfont-luolei
+.iconfont-shaofan
 {
     color: #6596c1;
 }
@@ -2799,7 +2799,7 @@ Copyright (c) 2014 Daniel Eden
     content: '\0e600';
 }
 
-.single-post-inner .iconfont-luolei:before
+.single-post-inner .iconfont-shaofan:before
 {
     content: '\0';
 }
@@ -2834,7 +2834,7 @@ Copyright (c) 2014 Daniel Eden
     content: '\00e60a';
 }
 
-.single-post-inner .iconfont-luolei:before
+.single-post-inner .iconfont-shaofan:before
 {
     content: '\00e60e';
 }
