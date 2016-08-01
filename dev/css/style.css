@@ -635,7 +635,7 @@ h1 {
   margin-bottom: .5rem; }
 
 .code-normal {
-  color: #c7254e;
+  color: #c7254e !important;
   background-color: #f9f2f4; }
 
 .clearfix:before, .clearfix:after {
