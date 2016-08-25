@@ -2701,7 +2701,7 @@ Copyright (c) 2014 Daniel Eden
 
 .iconfont-shaofan
 {
-    color: #6596c1;
+    color: #333;
 }
 
 .iconfont-dribble
@@ -2772,37 +2772,37 @@ Copyright (c) 2014 Daniel Eden
 
 .single-post-inner .iconfont-twitter:before
 {
-    content: '\00e604';
+    content: '\00e606';
 }
 
 .single-post-inner .iconfont-wechat:before
 {
-    content: '\00e606';
+    content: '\00e60d';
 }
 
 .single-post-inner .iconfont-weibo:before
 {
-    content: '\00e607';
+    content: '\00e600';
 }
 
 .single-post-inner .iconfont-facebook:before
 {
-    content: '\00e601';
+    content: '\00e603';
 }
 
 .single-post-inner .iconfont-google:before
 {
-    content: '\00e602';
+    content: '\00e604';
 }
 
 .single-post-inner .iconfont-github:before
 {
-    content: '\00e60d';
+    content: '\00e601';
 }
 
 .single-post-inner .iconfont-douban:before
 {
-    content: '\0e600';
+    content: '\0e602';
 }
 
 .single-post-inner .iconfont-shaofan:before
@@ -2812,7 +2812,7 @@ Copyright (c) 2014 Daniel Eden
 
 .single-post-inner .iconfont-v2ex:before
 {
-    content: '\00e605';
+    content: '\00e607';
 }
 
 .single-post-inner .iconfont-zhihu:before
@@ -2827,17 +2827,17 @@ Copyright (c) 2014 Daniel Eden
 
 .single-post-inner .iconfont-jianshu:before
 {
-    content: '\00e60b';
+    content: '\00e60a';
 }
 
 .single-post-inner .iconfont-youku:before
 {
-    content: '\00e60c';
+    content: '\00e60b';
 }
 
 .single-post-inner .iconfont-youtube:before
 {
-    content: '\00e60a';
+    content: '\00e60c';
 }
 
 .single-post-inner .iconfont-shaofan:before

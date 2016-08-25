@@ -64,7 +64,7 @@
     color: #279337
 }
 .iconfont-shaofan {
-    color: #6596C1
+    color: #333333
 }
 .iconfont-dribble {
     color: #F72D84
@@ -109,31 +109,31 @@
         content: "\0f00ac";
     }
     .iconfont-twitter:before {
-        content: "\00e604";
-    }
-    .iconfont-wechat:before {
         content: "\00e606";
     }
-    .iconfont-weibo:before {
-        content: "\00e607";
-    }
-    .iconfont-facebook:before {
-        content: "\00e601";
-    }
-    .iconfont-google:before {
-        content: "\00e602";
-    }
-    .iconfont-github:before {
+    .iconfont-wechat:before {
         content: "\00e60d";
     }
+    .iconfont-weibo:before {
+        content: "\00e600";
+    }
+    .iconfont-facebook:before {
+        content: "\00e603";
+    }
+    .iconfont-google:before {
+        content: "\00e604";
+    }
+    .iconfont-github:before {
+        content: "\00e601";
+    }
     .iconfont-douban:before {
-        content: "\0e600";
+        content: "\0e602";
     }
     .iconfont-shaofan:before {
         content: "\0"
     }
     .iconfont-v2ex:before {
-        content: "\00e605"
+        content: "\00e607"
     }
     .iconfont-zhihu:before {
         content: '\00e609'
@@ -142,13 +142,13 @@
         content: '\00e608'
     }
     .iconfont-jianshu:before {
-        content: '\00e60b'
+        content: '\00e60a'
     }
     .iconfont-youku:before {
-        content: '\00e60c'
+        content: '\00e60b'
     }
     .iconfont-youtube:before {
-        content: '\00e60a'
+        content: '\00e60c'
     }
     .iconfont-shaofan:before {
         content: '\00e60e'
