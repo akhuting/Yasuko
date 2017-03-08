@@ -1,6 +1,8 @@
 {{! This is the post loop - each post will be output using this markup }}
 {{#foreach posts}}
-
+{{#if featured}}
+{{! nothing }}
+{{else}}
 <article class="post-in-list {{post_class}}">
     <section class="post-excerpt">
     <a href="{{url}}">
@@ -38,6 +40,7 @@
     </div>
     </div>
 </article>
+{{/if}}
 
 {{/foreach}}
 
