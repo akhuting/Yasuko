@@ -54,16 +54,15 @@ function loadJS(url, callback, el) {
 
 /**
  * Yasuko 配置文件
- * 多说评论调用等
+ * 网易云跟帖评论调用等
  */
 
-var duoshuoQuery = {
-    short_name: "akhuting"
+var cloudTieConfig = {
+    url: document.location.href,
+    sourceId: "",
+    productKey: "d4f87e86064e41fb986010ced8cb2421",
+    target: "cloud-tie-wrapper"
 };
-
-var GlobalConfigue = {
-    duoshuoDomain: 'http://shaofan.org'
-}
 
 
 var General = {
@@ -277,26 +276,24 @@ var General = {
         if (!$('body').hasClass('post-template')) {
             return false;
         }
-        var dataThreadKey = GlobalConfigue.duoshuoDomain + location.pathname;
         $(window).scroll(function() {
             if ($('.comment-area').has('div').length > 0) {
                 return false
             } else {
                 console.log('增加评论');
-                if (($('.author-image').isOnScreenVisible() || $('.read-next').isOnScreenVisible()) && $('.author-image').hasClass('duoshuo-loaded') == false) {
-                    $('.author-image').addClass('duoshuo-loaded');
-                    loadJS(General.absUrl + '/assets/js/duoshuo.modify.js', function() {
-                        var el = document.createElement('div');
-                        el.setAttribute('data-thread-key', dataThreadKey);
-                        el.setAttribute('data-url', location.href);
-                        el.setAttribute('data-title', $('title').html());
-                        DUOSHUO.EmbedThread(el);
-                        scrollStop = true;
-                        setTimeout(function() {
-                            $('.comment-area').append(el);
-                        }, 250)
+                if (($('.author-image').isOnScreenVisible() || $('.read-next').isOnScreenVisible()) && $('.author-image').hasClass('comment-loaded') == false) {
+                    $('.author-image').addClass('comment-loaded');
 
-                    })
+                    var el = document.createElement('div');
+                    el.setAttribute('id', "cloud-tie-wrapper");
+                    el.setAttribute('class', "cloud-tie-wrapper");
+                    scrollStop = true;
+                    setTimeout(function () {
+                        $('.comment-area').append(el);
+                        loadJS("https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js");
+                    }, 250)
+
+
                 }
             }
 
